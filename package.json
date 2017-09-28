@@ -1,0 +1,26 @@
+{
+  "name": "@datacodedesign/crypto-coin-performance",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Displays the rates and change in rates for various crypto coins in USD and EUR",
+  "author": "Onno Gabriel",
+  "license": "MIT",
+  "homepage": "https://www.datacodedesign.de",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "stencil build --prerender",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@stencil/core": "next",
+    "@stencil/router": "latest"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  }
+}

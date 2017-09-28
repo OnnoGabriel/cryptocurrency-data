@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Cryptocurrency Data</title>
+  <script src="build/app.js"></script>
+
+  <meta name="theme-color" content="#16161d">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="assets/img/icon.png">
+
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>
+        Crypto Coin
+      </th>
+      <th colspan="2">
+        Current Price
+      </th>
+      <th>
+        Change rate
+      </th>
+    </tr>
+    <tr>
+      <td>
+        Bitcoin
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="BTC" show="USD"></cryptocurrency-data>
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="BTC" show="EUR"></cryptocurrency-data>
+      </td>
+      <td align="right">
+        <cryptocurrency-data coin="BTC" show="24h"></cryptocurrency-data> last 24 hours
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Bitcoin Cash
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="BCH" show="USD"></cryptocurrency-data>
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="BCH" show="EUR"></cryptocurrency-data>
+      </td>
+      <td align="right">
+        <cryptocurrency-data coin="BCH" show="24h"></cryptocurrency-data> last 24 hours
+      </td>
+    </tr>
+    <tr>
+      <td>
+       Ethereum
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="ETH" show="USD"></cryptocurrency-data>
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="ETH" show="EUR"></cryptocurrency-data>
+      </td>
+      <td align="right">
+        <cryptocurrency-data coin="ETH" show="24h"></cryptocurrency-data> last 24 hours
+      </td>
+    </tr>
+    <tr>
+    <tr>
+      <td>
+       Ripple
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="XRP" show="USD"></cryptocurrency-data>
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="XRP" show="EUR"></cryptocurrency-data>
+      </td>
+      <td align="right">
+        <cryptocurrency-data coin="XRP" show="24h"></cryptocurrency-data> last 24 hours
+      </td>
+    </tr>
+    <tr>
+      <td>
+       Litecoin
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="LTC" show="USD"></cryptocurrency-data>
+      </td>
+      <td align="right">
+         <cryptocurrency-data coin="LTC" show="EUR"></cryptocurrency-data>
+      </td>
+      <td align="right">
+        <cryptocurrency-data coin="LTC" show="24h"></cryptocurrency-data> last 24 hours
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
