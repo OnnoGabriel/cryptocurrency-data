@@ -8,13 +8,28 @@ This web component is a *proof of concept*. It retrieves the data from the [Coin
 
 ## Installation
 
-1. Clone this repo.
+1. Clone this repo:
 
-2. `npm install` : to install all dependencies
+~~~~ {.bash}
+git clone https://github.com/OnnoGeorg/cryptocurrency-data.git my-app
+cd my-app
+git remote rm origin
+~~~~
 
-3. `npm start` : to compile the component with Stencil.
+2. Install all dependencies:
 
-The last command starts also a small web server and opens a browser to display a sample webpage containing multiple instances of this web component.
+~~~~ {.bash}
+npm install
+~~~~
+
+3. Compile and run the web component with Stencil:
+
+~~~~ {.bash}
+npm start
+~~~~
+
+This last command also starts a small web server and opens a browser to display a sample webpage containing multiple instances of this web component.
+
 
 ## Usage
 
