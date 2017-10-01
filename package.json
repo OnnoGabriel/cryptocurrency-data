@@ -1,5 +1,5 @@
 {
-  "name": "@datacodedesign/crypto-coin-performance",
+  "name": "cryptocurrency-data",
   "version": "0.0.1",
   "description": "Web component displaying the rates for various cryptocoins in USD or EUR",
   "main": "dist/collection/index.js",
