@@ -6,7 +6,7 @@
 
 Cryptocurrency Data is a demo web component built with [Stencil](https://stenciljs.com/). It displays the rates and changes in rates for various cryptocoins such as Bitcoin, Ethereum etc.
 
-This web component is a *proof of concept*. It retrieves the data from the [CoinMarketCap](https://coinmarketcap.com) API and has some basic settings, what type of data should be displayed. Moreover, multiple instances of this compoment communicate and transfer data via events to minimize the number API calls: Only one component performens the API call and submits the retrieved data to all other components.
+This web component is a *proof of concept*. It retrieves the data from the [CoinMarketCap](https://coinmarketcap.com) API and has some basic settings, what type of data should be displayed. Moreover, multiple instances of this component communicate and transfer data via events to minimize the number API calls: Only one component performs the API call and submits the retrieved data to all other components.
 
 ## Installation
 
@@ -30,7 +30,7 @@ npm install
 npm start
 ~~~~
 
-This last command also starts a small web server and opens a browser to display a sample webpage containing multiple instances of this web component.
+This last command also starts a small web server and opens a browser to display a sample web page containing multiple instances of this web component.
 
 
 ## Usage
@@ -60,6 +60,6 @@ You can put as many of this web component in an app or on a web page, e.g. to sh
 
 The web component calls the [JSON API of CoinMarketCap](https://coinmarketcap.com/api/) to retrieve data of the 10 coins with the highest market capitalization (= most popular). This data is stored as an associative array in a `@State()` property within the web component.
 
-To avoid unnecessary (multiple) calls to the external API, only one (the first visible) web component performs this call. Just before the API call, this first compoment emits an event to all other web components. This event prevents these other components from performing an API call for their own.
+To avoid unnecessary (multiple) calls to the external API, only one (the first visible) web component performs this call. Just before the API call, this first component emits an event to all other web components. This event prevents these other components from performing an API call for their own.
 
 After the data is retrieved from the API, the first component emits a second event containing this data to all other components.
