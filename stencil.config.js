@@ -2,9 +2,7 @@ exports.config = {
   bundles: [
     { components: ['cryptocurrency-data'] }
   ],
-  collections: [
-    { name: '@stencil/router' }
-  ]
+  collections: [{ name: '@stencil/router' }]
 };
 
 exports.devServer = {

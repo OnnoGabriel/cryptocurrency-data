@@ -1,11 +1,11 @@
 {
   "name": "@datacodedesign/crypto-coin-performance",
-  "private": true,
   "version": "0.0.1",
-  "description": "Web component displaying the rates for various cryptocoins in USD and EUR",
-  "author": "Onno Gabriel",
-  "license": "MIT",
-  "homepage": "https://www.datacodedesign.de",
+  "description": "Web component displaying the rates for various cryptocoins in USD or EUR",
+  "main": "dist/collection/index.js",
+  "types": "dist/collection/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "browser": "dist/cryptocurrencydata.js",
   "files": [
     "dist"
   ],
@@ -22,5 +22,15 @@
   "devDependencies": {
     "@stencil/dev-server": "latest",
     "@stencil/utils": "latest"
-  }
+  },
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/OnnoGeorg/cryptocurrency-data.git"
+ },
+  "author": "Onno Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnnoGeorg/cryptocurrency-data"
+  },
+  "homepage": "https://github.com/OnnoGeorg/cryptocurrency-data"
 }
