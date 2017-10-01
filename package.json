@@ -1,6 +1,6 @@
 {
   "name": "cryptocurrency-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Web component displaying the rates for various cryptocoins in USD or EUR",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
@@ -24,9 +24,9 @@
     "@stencil/utils": "latest"
   },
   "repository": {
-   "type": "git",
-   "url": "git+https://github.com/OnnoGeorg/cryptocurrency-data.git"
- },
+    "type": "git",
+    "url": "git+https://github.com/OnnoGeorg/cryptocurrency-data.git"
+  },
   "author": "Onno Gabriel",
   "license": "MIT",
   "bugs": {
