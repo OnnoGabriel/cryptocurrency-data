@@ -92,8 +92,6 @@ export class CryptocurrencyData {
         let _request = new XMLHttpRequest();
         _request.open('GET', _url);
 
-        console.log('Request to API!');
-
         _request.onload = function () {
             if (_request.status == 200) {
                 resolve(JSON.parse(_request.response));
