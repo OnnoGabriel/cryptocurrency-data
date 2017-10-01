@@ -1,13 +1,13 @@
 {
   "name": "cryptocurrency-data",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Web component displaying the rates for various cryptocoins in USD or EUR",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "browser": "dist/cryptocurrencydata.js",
   "files": [
-    "dist"
+    "dist/"
   ],
   "scripts": {
     "build": "stencil build --prerender",
