@@ -2,7 +2,7 @@
   "name": "@datacodedesign/crypto-coin-performance",
   "private": true,
   "version": "0.0.1",
-  "description": "Displays the rates and change in rates for various crypto coins in USD and EUR",
+  "description": "Web component displaying the rates for various cryptocoins in USD and EUR",
   "author": "Onno Gabriel",
   "license": "MIT",
   "homepage": "https://www.datacodedesign.de",
