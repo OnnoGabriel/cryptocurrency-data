@@ -1,6 +1,6 @@
 {
   "name": "cryptocurrency-data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Web component displaying the rates for various cryptocoins in USD or EUR",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
